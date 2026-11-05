@@ -49,3 +49,13 @@ When no license file is supplied, the library operates in evaluation mode, allow
 
 ### Q: What archive formats does Aspose.ZIP support  
 `ArchiveFactory` recognizes `ArchiveType.Zip`, `ArchiveType.SevenZip`, `ArchiveType.Tar`, `ArchiveType.Gzip`, and `ArchiveType.Bzip2`, enabling creation and extraction of ZIP, 7z, TAR, GZIP, and BZIP2 files. This broad support makes Aspose.ZIP a versatile **dotnet compression library** for all common **C# archive processing** needs.
+
+
+| Category   | Examples | Key APIs                                             |
+|------------|----------|------------------------------------------------------|
+| archives   | 575      | Archive, ArchiveEntry, ZipFile                       |
+| compression| 112      | CompressionLevel, CompressionMethod, ZipOutputStream |
+| conversion | 91       | ZipFile, Archive, ZipArchive                         |
+| decryption | 45       | EncryptionAlgorithm, ZipDecryption, ZipArchiveEntry |
+| encryption | 42       | EncryptionAlgorithm, ZipEncryption, ZipArchiveEntry |
+| events     | 51       | ZipEvent, ZipArchiveEventArgs, ZipException          |
