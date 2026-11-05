@@ -250,6 +250,70 @@ dotnet build --configuration Release --verbosity minimal
    dotnet run <example-file.cs>
    ```
 
+
+
+## Related Resources
+
+Aspose.ZIP for .NET is a UI-agnostic backend API for archive processing that integrates into any .NET application — ASP.NET Core, console apps, Azure Functions, Docker containers — without requiring a display or UI framework.
+
+| Resource | URL |
+|----------|-----|
+| 📖 Documentation | https://docs.aspose.com/zip/net/ |
+| 📦 NuGet | https://www.nuget.org/packages/Aspose.Zip |
+| 🚀 Release Notes | https://releases.aspose.com/zip/net/ |
+| 🌐 Online Apps | https://products.aspose.app/zip/family/ |
+
+## Agent Capabilities
+
+- **MCP‑compatible archive processing agent**  
+  - *Input*: Archive metadata, file paths, or raw byte streams (ZIP, TAR, GZIP, etc.) in a format compatible with the MCP (Message Communication Protocol).  
+  - *Output*: Validation reports, extraction logs, compression/decompression status, and optionally transformed archive files.
+
+- **REST API for C# code generation**  
+  - *Input*: JSON payload describing the desired operation (e.g., “compress folder X”, “encrypt archive Y with password Z”), target .NET version, and optional code style preferences.  
+  - *Output*: A `200 OK` response containing a downloadable `.cs` file (or a zip of multiple files) with ready‑to‑run Aspose.ZIP example code, plus a JSON summary of generated classes and methods.
+
+- **Agentic example generator for Aspose.ZIP**  
+  - *Input*: High‑level scenario description (e.g., “convert a password‑protected ZIP to a plain ZIP and log events”), optional constraints (runtime, async/sync, error handling).  
+  - *Output*: Fully‑commented C# snippet or project skeleton that demonstrates the scenario using Aspose.ZIP APIs, plus a markdown README explaining usage.
+
+- **AI agent for .NET archive processing examples**  
+  - *Input*: Natural‑language query or structured request asking for a specific archive operation (compression, encryption, decryption, conversion, event handling).  
+  - *Output*: Tailored C# example code, step‑by‑step explanation, and a list of required NuGet packages.
+
+- **OpenAPI‑compatible ZIP code generator**  
+  - *Input*: OpenAPI (Swagger) specification fragment that defines an endpoint for ZIP manipulation (e.g., `/zip/compress`, `/zip/decrypt`).  
+  - *Output*: Auto‑generated C# controller code, request/response DTOs, and client‑side usage examples that conform to the provided OpenAPI contract.
+
+- **Event‑driven archive workflow builder**  
+  - *Input*: Sequence of event definitions (e.g., `OnStart`, `OnProgress`, `OnComplete`, `OnError`) and associated actions in JSON or YAML.  
+  - *Output*: C# code wiring Aspose.ZIP event handlers to the defined actions, ready for integration into larger .NET applications.
+
+- **Conversion & encryption/decryption service orchestrator**  
+  - *Input*: Source archive location, target format, encryption password (optional), and conversion flags.  
+  - *Output*: Executable C# routine that performs the full conversion pipeline, returns status codes, and logs detailed operation metrics.
+
+- **Documentation & metadata extractor**  
+  - *Input*: Existing Aspose.ZIP C# project or code file.  
+  - *Output*: Structured metadata (methods used, parameters, supported features) and auto‑generated markdown documentation for quick reference.
+
+## Quick Reference
+| Task | Category | Key Classes |
+|---|---|---|
+| Create a new ZIP archive | archives | `Aspose.Zip.Archive`, `Aspose.Zip.ArchiveOptions` |
+| Add files/folders to an existing archive | compression | `Aspose.Zip.Archive`, `Aspose.Zip.ArchiveEntry`, `Aspose.Zip.CompressionLevel`, `Aspose.Zip.CompressionMethod` |
+| Extract all entries to a folder | archives | `Aspose.Zip.Archive`, `Aspose.Zip.ArchiveExtractor` |
+| Extract selected entries (by name or pattern) | archives | `Aspose.Zip.Archive`, `Aspose.Zip.ArchiveEntry`, `Aspose.Zip.ArchiveExtractor` |
+| List contents of a ZIP file | archives | `Aspose.Zip.Archive`, `Aspose.Zip.ArchiveEntry` |
+| Remove one or more entries from an archive | archives | `Aspose.Zip.Archive`, `Aspose.Zip.ArchiveEntry` |
+| Update an existing entry (replace data) | archives | `Aspose.Zip.Archive`, `Aspose.Zip.ArchiveEntry` |
+| Encrypt an archive with a password | encryption | `Aspose.Zip.Archive`, `Aspose.Zip.ArchiveEncryptionOptions` |
+| Decrypt an encrypted archive | decryption | `Aspose.Zip.Archive`, `Aspose.Zip.ArchiveDecryptionOptions` |
+| Set or modify archive comment | archives | `Aspose.Zip.Archive`, `Aspose.Zip.ArchiveComment` |
+| Convert an archive to a memory stream (or from stream) | conversion | `Aspose.Zip.Archive`, `Aspose.Zip.ArchiveStream` |
+| Subscribe to archive events (e.g., progress, entry added) | events | `Aspose.Zip.ArchiveEvent`, `Aspose.Zip.ArchiveEventArgs` |
+| Split a large archive into multiple parts | compression | `Aspose.Zip.Archive`, `Aspose.Zip.ArchiveOptions` |
+| Change compression level/method for specific entries | compression | `Aspose.Zip.ArchiveEntry`, `Aspose.Zip.CompressionLevel`, `Aspose.Zip.CompressionMethod` |
 <!-- AUTOGENERATED:START -->
 Updated: 2026-11-05 | Run: `20261105_115120` | Examples: 916 | Categories: 6
 <!-- AUTOGENERATED:END -->
