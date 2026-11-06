@@ -59,3 +59,18 @@ When no license file is supplied, the library operates in evaluation mode, allow
 | decryption | 45       | EncryptionAlgorithm, ZipDecryption, ZipArchiveEntry |
 | encryption | 42       | EncryptionAlgorithm, ZipEncryption, ZipArchiveEntry |
 | events     | 51       | ZipEvent, ZipArchiveEventArgs, ZipException          |
+
+
+| Category   | Examples | Key APIs |
+|------------|----------|----------|
+| archives   | 575      | `Aspose.Zip.Archive`, `Aspose.Zip.ZipFile` |
+| compression| 112      | `Aspose.Zip.CompressionLevel`, `Aspose.Zip.CompressionMethod` |
+| conversion | 91       | `Aspose.Zip.ArchiveEntry`, `Aspose.Zip.ZipFile` |
+| decryption | 45       | `Aspose.Zip.ZipDecryption` |
+| encryption | 42       | `Aspose.Zip.ZipEncryption` |
+| events     | 51       | `Aspose.Zip.ZipEvent` |
+| files      | 33       | `Aspose.Zip.ZipFile`, `Aspose.Zip.ZipInputStream` |
+| folders    | 27       | `Aspose.Zip.ArchiveEntry` |
+| images     | 19       | `Aspose.Zip.ArchiveEntry` |
+| merging    | 50       | `Aspose.Zip.ZipFile` (Merge support) |
+| volumes    | 79       | `Aspose.Zip.ZipVolume` |
