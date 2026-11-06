@@ -1,6 +1,6 @@
 {
   "name": "Aspose.ZIP for .NET Examples Agent",
-  "description": "AI agent that generates, compiles, and validates C# code examples for Aspose.ZIP for .NET 26.9.0. 916 build-verified examples across 6 categories.",
+  "description": "AI agent that generates, compiles, and validates C# code examples for Aspose.ZIP for .NET 26.9.0. 1,124 build-verified examples across 11 categories.",
   "version": "26.9.0",
   "url": "https://github.com/aspose-zip/agentic-net-examples",
   "api_base_url": "http://faisalabad-examples-mcp.dynabic.com:7009",
@@ -60,6 +60,26 @@
     {
       "name": "Events",
       "examples": 51
+    },
+    {
+      "name": "Files",
+      "examples": 33
+    },
+    {
+      "name": "Folders",
+      "examples": 27
+    },
+    {
+      "name": "Images",
+      "examples": 19
+    },
+    {
+      "name": "Merging",
+      "examples": 50
+    },
+    {
+      "name": "Volumes",
+      "examples": 79
     }
   ],
   "links": {
