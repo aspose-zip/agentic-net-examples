@@ -24,8 +24,8 @@ When working in this repository:
 This repository contains **916** working code examples demonstrating Aspose.ZIP for .NET capabilities.
 
 **Statistics** (as of 2026-11-05):
-- Total Examples: 916
-- Categories: 6
+- Total Examples: 1124
+- Categories: 11
 - Overall Pass Rate: 100.0%
 
 ## Category Details
