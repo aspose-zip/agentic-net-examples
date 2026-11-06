@@ -3,7 +3,7 @@
   "info": {
     "title": "Aspose.ZIP Examples Generator API",
     "version": "26.9.0",
-    "description": "REST API for the Aspose.ZIP agentic .NET examples generator. Submit tasks, run categories, poll job status and retrieve results. All 916 generated examples are compiler-validated C# code for Aspose.ZIP for .NET.",
+    "description": "REST API for the Aspose.ZIP agentic .NET examples generator. Submit tasks, run categories, poll job status and retrieve results. All 1,124 generated examples are compiler-validated C# code for Aspose.ZIP for .NET.",
     "contact": {
       "name": "Aspose.ZIP Agent",
       "url": "https://github.com/aspose-zip/agentic-net-examples"
@@ -79,7 +79,12 @@
                       "Conversion",
                       "Decryption",
                       "Encryption",
-                      "Events"
+                      "Events",
+                      "Files",
+                      "Folders",
+                      "Images",
+                      "Merging",
+                      "Volumes"
                     ],
                     "description": "Category slug to run"
                   }
@@ -162,7 +167,12 @@
                 "Conversion",
                 "Decryption",
                 "Encryption",
-                "Events"
+                "Events",
+                "Files",
+                "Folders",
+                "Images",
+                "Merging",
+                "Volumes"
               ]
             }
           }
