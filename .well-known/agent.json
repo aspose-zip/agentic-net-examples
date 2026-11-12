@@ -1,0 +1,93 @@
+{
+  "name": "Aspose.ZIP for .NET Examples Agent",
+  "description": "AI agent that generates, compiles, and validates C# code examples for Aspose.ZIP for .NET 26.9.0. 1,124 build-verified examples across 11 categories.",
+  "version": "26.9.0",
+  "url": "https://github.com/aspose-zip/agentic-net-examples",
+  "api_base_url": "http://faisalabad-examples-mcp.dynabic.com:7009",
+  "mcp_endpoint": "http://faisalabad-examples-mcp.dynabic.com:7009/mcp/sse",
+  "openapi_url": "http://faisalabad-examples-mcp.dynabic.com:7009/api/v1/openapi.json",
+  "docs_url": "http://faisalabad-examples-mcp.dynabic.com:7009/api/v1/docs",
+  "capabilities": [
+    "Generate C# code examples for Aspose.ZIP operations",
+    "Compile and runtime-validate examples using .NET",
+    "Search existing verified examples by keyword",
+    "Get all examples for a specific archive processing category",
+    "Retrieve agent statistics and pass rates"
+  ],
+  "tools": [
+    {
+      "name": "generate_example",
+      "description": "Generate and validate a C# example"
+    },
+    {
+      "name": "search_examples",
+      "description": "Search existing examples"
+    },
+    {
+      "name": "get_category_examples",
+      "description": "List all examples for a category"
+    },
+    {
+      "name": "get_stats",
+      "description": "Get overall agent statistics"
+    },
+    {
+      "name": "get_eval_report",
+      "description": "Get full evaluation report"
+    }
+  ],
+  "categories": [
+    {
+      "name": "Archives",
+      "examples": 575
+    },
+    {
+      "name": "Compression",
+      "examples": 112
+    },
+    {
+      "name": "Conversion",
+      "examples": 91
+    },
+    {
+      "name": "Decryption",
+      "examples": 45
+    },
+    {
+      "name": "Encryption",
+      "examples": 42
+    },
+    {
+      "name": "Events",
+      "examples": 51
+    },
+    {
+      "name": "Files",
+      "examples": 33
+    },
+    {
+      "name": "Folders",
+      "examples": 27
+    },
+    {
+      "name": "Images",
+      "examples": 19
+    },
+    {
+      "name": "Merging",
+      "examples": 50
+    },
+    {
+      "name": "Volumes",
+      "examples": 79
+    }
+  ],
+  "links": {
+    "github": "https://github.com/aspose-zip/agentic-net-examples",
+    "index": "https://github.com/aspose-zip/agentic-net-examples/blob/main/index.json",
+    "llm_txt": "https://github.com/aspose-zip/agentic-net-examples/blob/main/llm.txt",
+    "agents_md": "https://github.com/aspose-zip/agentic-net-examples/blob/main/agents.md",
+    "documentation": "https://docs.aspose.com/zip/net/",
+    "api_reference": "https://reference.aspose.com/zip/net/"
+  }
+}

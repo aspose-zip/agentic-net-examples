@@ -1,0 +1,169 @@
+---
+name: archives
+description: C# examples for Archives using Aspose.ZIP for .NET
+language: csharp
+framework: net9.0
+parent: ../agents.md
+---
+
+# AGENTS - Archives
+
+## Persona
+
+You are a C# developer specializing in archive processing using Aspose.ZIP for .NET,
+working within the **Archives** category.
+This folder contains standalone C# examples for Archives operations.
+See the root [agents.md](../agents.md) for repository-wide conventions and boundaries.
+
+## Required Namespaces
+
+- `using System;` (575/572 files)
+- `using System.IO;` (575/572 files)
+- `using Aspose.Zip;` (242/572 files) ← category-specific
+- `using Aspose.Zip.Saving;` (84/572 files) ← category-specific
+- `using Aspose.Zip.Tar;` (73/572 files) ← category-specific
+- `using Aspose.Zip.Wim;` (64/572 files) ← category-specific
+- `using System.Text;` (53/572 files)
+- `using Aspose.Zip.Cab;` (40/572 files) ← category-specific
+- `using Aspose.Zip.Xz;` (39/572 files) ← category-specific
+- `using Aspose.Zip.Xar;` (36/572 files) ← category-specific
+- `using System.Linq;` (35/572 files)
+- `using Aspose.Zip.SevenZip;` (32/572 files) ← category-specific
+- `using Aspose.Zip.Bzip2;` (29/572 files) ← category-specific
+- `using System.Collections.Generic;` (28/572 files)
+- `using Aspose.Zip.Cpio;` (27/572 files) ← category-specific
+- `using Aspose.Zip.Gzip;` (22/572 files) ← category-specific
+- `using Aspose.Zip.Arj;` (20/572 files) ← category-specific
+- `using Aspose.Zip.Lzip;` (18/572 files) ← category-specific
+- `using Aspose.Zip.Lz4;` (17/572 files) ← category-specific
+- `using Aspose.Zip.Rar;` (9/572 files) ← category-specific
+- `using Aspose.Zip.Zstandard;` (9/572 files) ← category-specific
+- `using Aspose.Zip.LZMA;` (5/572 files) ← category-specific
+- `using System.Security.Cryptography;` (5/572 files)
+- `using Aspose.Zip.Z;` (4/572 files) ← category-specific
+- `using System.Threading;` (3/572 files)
+- `using Aspose.Zip.ArchiveInfo;` (2/572 files) ← category-specific
+- `using System.IO.Pipes;` (1/572 files)
+- `using Aspose.Zip.Xz.Settings;` (1/572 files) ← category-specific
+
+## Files in this folder
+
+| File | Key APIs | Description |
+|------|----------|-------------|
+| [create-a-new-archive-instance-add-local-files-with-createentry-and-save-a-zip-file-to-the-chosen-output-path.cs](./create-a-new-archive-instance-add-local-files-with-createentry-and-save-a-zip-file-to-the-chosen-output-path.cs) |  | Create a new Archive instance, add local files with CreateEntry, and save a ZIP ... |
+| [add-a-single-file-to-the-zip-archive-using-archiveentrysettings-and-save-to-disk.cs](./add-a-single-file-to-the-zip-archive-using-archiveentrysettings-and-save-to-disk.cs) |  | Add a single file to the ZIP archive using ArchiveEntrySettings and save to disk... |
+| [add-multiple-files-from-a-directory-recursively-to-the-zip-archive-preserving-ntfs-attributes.cs](./add-multiple-files-from-a-directory-recursively-to-the-zip-archive-preserving-ntfs-attributes.cs) |  | Add multiple files from a directory recursively to the ZIP archive preserving NT... |
+| [enable-ntfs-attribute-preservation-when-adding-files-to-the-zip-archive-and-save-it.cs](./enable-ntfs-attribute-preservation-when-adding-files-to-the-zip-archive-and-save-it.cs) | `ArchiveSaveOptions` | Enable NTFS attribute preservation when adding files to the ZIP archive and save... |
+| [add-a-directory-recursively-to-a-zip-archive-while-preserving-ntfs-attributes-and-applying-custom-compression.cs](./add-a-directory-recursively-to-a-zip-archive-while-preserving-ntfs-attributes-and-applying-custom-compression.cs) |  | Add a directory recursively to a ZIP archive while preserving NTFS attributes an... |
+| [configure-custom-compression-settings-for-the-zip-archive-before-saving-it-to-a-memory-stream.cs](./configure-custom-compression-settings-for-the-zip-archive-before-saving-it-to-a-memory-stream.cs) |  | Configure custom compression settings for the ZIP archive before saving it to a ... |
+| [apply-custom-compression-options-to-a-zip-archive-containing-large-video-files-before-saving-to-disk.cs](./apply-custom-compression-options-to-a-zip-archive-containing-large-video-files-before-saving-to-disk.cs) |  | Apply custom compression options to a ZIP archive containing large video files b... |
+| [create-a-zip-archive-apply-custom-compression-settings-add-multiple-files-and-store-the-archive-in-memory.cs](./create-a-zip-archive-apply-custom-compression-settings-add-multiple-files-and-store-the-archive-in-memory.cs) |  | Create a ZIP archive, apply custom compression settings, add multiple files, and... |
+| [save-the-created-zip-archive-to-a-physical-file-on-disk-using-archive.cs](./save-the-created-zip-archive-to-a-physical-file-on-disk-using-archive.cs) |  | Save the created ZIP archive to a physical file on disk using Archive. |
+| [save-the-zip-archive-to-a-memory-stream-after-adding-entries-with-archiveentrysettings.cs](./save-the-zip-archive-to-a-memory-stream-after-adding-entries-with-archiveentrysettings.cs) |  | Save the ZIP archive to a memory stream after adding entries with ArchiveEntrySe... |
+| [load-an-existing-zip-archive-from-a-memory-stream-add-a-new-entry-and-save-back.cs](./load-an-existing-zip-archive-from-a-memory-stream-add-a-new-entry-and-save-back.cs) |  | Load an existing ZIP archive from a memory stream, add a new entry, and save bac... |
+| [load-a-zip-archive-from-a-file-extract-its-entries-to-a-temporary-directory-and-re-archive-them.cs](./load-a-zip-archive-from-a-file-extract-its-entries-to-a-temporary-directory-and-re-archive-them.cs) |  | Load a ZIP archive from a file, extract its entries to a temporary directory, an... |
+| [load-an-existing-zip-by-file-path-with-archive-call-extracttodirectory-and-save-all-entries-in-a-local-directory.cs](./load-an-existing-zip-by-file-path-with-archive-call-extracttodirectory-and-save-all-entries-in-a-local-directory.cs) |  | Load an existing ZIP by file path with Archive, call ExtractToDirectory, and sav... |
+| [extract-all-entries-from-a-zip-archive-using-a-memory-stream-and-write-them-to-an-output-folder.cs](./extract-all-entries-from-a-zip-archive-using-a-memory-stream-and-write-them-to-an-output-folder.cs) |  | Extract all entries from a ZIP archive using a memory stream and write them to a... |
+| [load-an-existing-zip-from-an-input-stream-with-archive-call-extracttodirectory-and-save-all-entries-locally.cs](./load-an-existing-zip-from-an-input-stream-with-archive-call-extracttodirectory-and-save-all-entries-locally.cs) |  | Load an existing ZIP from an input stream with Archive, call ExtractToDirectory,... |
+| [extract-a-password-protected-zip-archive-by-supplying-archiveloadoptions-with-the-correct-password.cs](./extract-a-password-protected-zip-archive-by-supplying-archiveloadoptions-with-the-correct-password.cs) | `ArchiveLoadOptions` | Extract a password‑protected ZIP archive by supplying ArchiveLoadOptions with th... |
+| [extract-all-entries-from-a-password-protected-zip-archive-using-archiveloadoptions-and-save-to-a-target-directory.cs](./extract-all-entries-from-a-password-protected-zip-archive-using-archiveloadoptions-and-save-to-a-target-directory.cs) | `ArchiveLoadOptions` | Extract all entries from a password‑protected ZIP archive using ArchiveLoadOptio... |
+| [load-a-zip-archive-delete-a-selected-entry-recreate-that-named-entry-with-replacement-contents-and-save-the.cs](./load-a-zip-archive-delete-a-selected-entry-recreate-that-named-entry-with-replacement-contents-and-save-the.cs) |  | Load a ZIP archive, delete a selected entry, recreate that named entry with repl... |
+| [load-a-zip-archive-delete-selected-entries-and-recreate-each-with-replacement-contents-then-save-the-updated-zip.cs](./load-a-zip-archive-delete-selected-entries-and-recreate-each-with-replacement-contents-then-save-the-updated-zip.cs) |  | Load a ZIP archive, delete selected entries and recreate each with replacement c... |
+| [remove-an-entry-from-the-zip-archive-using-the-remove-entry-workflow-and-save-changes.cs](./remove-an-entry-from-the-zip-archive-using-the-remove-entry-workflow-and-save-changes.cs) |  | Remove an entry from the ZIP archive using the remove entry workflow and save ch... |
+| [remove-several-entries-from-a-zip-archive-based-on-a-predefined-list-and-save-the-modified-archive.cs](./remove-several-entries-from-a-zip-archive-based-on-a-predefined-list-and-save-the-modified-archive.cs) |  | Remove several entries from a ZIP archive based on a predefined list and save th... |
+| [remove-an-entry-from-a-zip-archive-opened-from-a-file-path-and-save-the-cleaned-archive.cs](./remove-an-entry-from-a-zip-archive-opened-from-a-file-path-and-save-the-cleaned-archive.cs) |  | Remove an entry from a ZIP archive opened from a file path and save the cleaned ... |
+| [extract-an-encrypted-zip-archive-using-archiveloadoptions-then-add-a-new-file-and-save-the-updated-archive.cs](./extract-an-encrypted-zip-archive-using-archiveloadoptions-then-add-a-new-file-and-save-the-updated-archive.cs) | `ArchiveLoadOptions` | Extract an encrypted ZIP archive using ArchiveLoadOptions, then add a new file a... |
+| [extract-an-encrypted-zip-archive-using-archiveloadoptions-then-re-compress-its-contents-with-custom-compression.cs](./extract-an-encrypted-zip-archive-using-archiveloadoptions-then-re-compress-its-contents-with-custom-compression.cs) | `ArchiveLoadOptions` | Extract an encrypted ZIP archive using ArchiveLoadOptions, then re‑compress its ... |
+| [load-a-local-rar-archive-using-rararchive-and-extract-all-entries-to-a-local-folder.cs](./load-a-local-rar-archive-using-rararchive-and-extract-all-entries-to-a-local-folder.cs) |  | Load a local RAR archive using RarArchive and extract all entries to a local fol... |
+| [load-a-local-7z-archive-using-sevenziparchive-and-extract-all-entries-to-a-local-directory.cs](./load-a-local-7z-archive-using-sevenziparchive-and-extract-all-entries-to-a-local-directory.cs) |  | Load a local 7z archive using SevenZipArchive and extract all entries to a local... |
+| [create-a-zip-archive-add-a-directory-recursively-enable-ntfs-attribute-preservation-and-save-to-a-specified.cs](./create-a-zip-archive-add-a-directory-recursively-enable-ntfs-attribute-preservation-and-save-to-a-specified.cs) |  | Create a ZIP archive, add a directory recursively, enable NTFS attribute preserv... |
+| [create-a-zip-archive-add-files-from-two-different-directories-and-save-to-a-designated-output-folder.cs](./create-a-zip-archive-add-files-from-two-different-directories-and-save-to-a-designated-output-folder.cs) | `ArchiveSaveOptions` | Create a ZIP archive, add files from two different directories, and save to a de... |
+| [create-a-zip-archive-add-file-contents-from-an-in-memory-byte-array-through-a-stream-and-save-the-zip-file.cs](./create-a-zip-archive-add-file-contents-from-an-in-memory-byte-array-through-a-stream-and-save-the-zip-file.cs) |  | Create a ZIP archive, add file contents from an in-memory byte array through a s... |
+| [extract-a-password-protected-zip-archive-using-archiveloadoptions-then-re-compress-its-contents-with-custom.cs](./extract-a-password-protected-zip-archive-using-archiveloadoptions-then-re-compress-its-contents-with-custom.cs) | `ArchiveLoadOptions` | Extract a password‑protected ZIP archive using ArchiveLoadOptions, then re‑compr... |
+| *...and 545 more files* | | [View all](https://github.com/aspose-zip/agentic-net-examples/tree/26.10.0/archives) |
+
+## Category Statistics
+- Total examples: 575
+- Failed: 0
+- Pass rate: 100.0%
+
+## Key API Surface
+
+- `ArchiveLoadOptions`
+- `ArchiveSaveOptions`
+- `ArjLoadOptions`
+- `Bzip2SaveOptions`
+- `RarArchiveLoadOptions`
+- `SelfExtractorOptions`
+
+## Failed Tasks
+
+All tasks passed ✅
+
+
+## Use Cases  
+
+- **Embedding a Bzip2‑compressed file into an XAR archive** – When you need to package log files or configuration data in an XAR container while keeping the payload size low, the “add‑a‑bzip2‑compressed‑entry‑to‑a‑xar‑archive‑using‑a‑filestream‑source” example shows the exact `Aspose.Zip.Bzip2` and `Aspose.Zip.Xar` calls required, making it a ready‑to‑run archives C# example.  
+
+- **Mixing compressed and uncompressed entries in a single XAR** – Some deployment pipelines require certain assets (e.g., HTML documentation) to remain uncompressed for quick access while others (e.g., large binaries) are compressed. The “compose‑a‑xar‑archive‑with‑a‑bzip2‑compressed‑entry‑and‑an‑uncompressed‑entry” snippet demonstrates how to add both types in one operation.  
+
+- **Creating an AppleArchive with LZFSE compression for PDF distribution** – If you are delivering PDF manuals to macOS users via an AppleArchive, the “compress‑a‑set‑of‑pdf‑files‑using‑lzfse‑compression‑within‑applearchive” example illustrates the exact `Aspose.Zip.Saving` settings to produce a `.aar` file that macOS can open natively.  
+
+- **Generating a 7z archive directly from in‑memory streams while preserving timestamps** – For services that receive files over a network and must archive them without writing temporary files to disk, the “create‑a‑7z‑archive‑from‑multiple‑streams‑using‑a‑stream‑provider” code shows how to feed byte arrays into a `SevenZipArchive` and retain original file timestamps, a practical archives C# example for cloud‑native workloads.  
+
+- **Building a TAR.BZ2 archive by first creating a TAR and then applying Bzip2 compression** – When legacy systems only accept `.tar.bz2` packages, the “create‑a‑tar‑bz2‑archive‑from‑multiple‑files‑by‑first‑building‑a‑tar‑archive‑and‑then‑applying‑bzip2‑compression” sample walks you through the two‑step process using `Aspise.Zip.Tar` and `Aspise.Zip.Bzip2`, providing a concrete archives C# example you can adapt.  
+
+## Related Categories  
+
+The archive‑focused examples often intersect with the **Compression** category, where you’ll find additional demonstrations of LZMA, PPMd, and Zstandard algorithms that can be swapped into the same `Aspose.Zip` workflow. If you need to protect the contents of your archives, the **Encryption** category offers C# snippets for applying AES or PKCS#7 encryption to ZIP, 7z, and TAR files. For scenarios that involve streaming large datasets or integrating with cloud storage, the **Streaming** category provides patterns for reading and writing archives directly from `Stream` objects, complementing the in‑memory stream usage shown in the 7z example. Together, these neighboring sections give a full picture of how to create, compress, secure, and stream archives in .NET using Aspose.ZIP.
+
+
+## Operations Covered
+- Add Bzip2‑compressed entry to a XAR archive  
+- Create XAR archive with both compressed and uncompressed files  
+- Write XAR archive to a physical file  
+- Compress PDF files with LZFSE inside an AppleArchive (.aar)  
+- Save AppleArchive to disk  
+- Build a 7z archive from multiple memory streams  
+- Preserve original file timestamps when creating a 7z archive  
+- Create a TAR archive then apply Bzip2 compression to produce a .tar.bz2 file  
+- Generate a ZIP archive using Bzip2 compression  
+- Assemble a SHAR archive from several shell‑script files  
+
+## Supported Formats
+- **PNG** – binary data for a PNG image is added to the 7z archive (shown as a byte array).  
+- **PDF** – PDF files are added to an AppleArchive with LZFSE compression.  
+- **HTML** – HTML file is added to a XAR archive (uncompressed).  
+- **TXT** – plain‑text files are used as source entries for XAR and SHAR archives.  
+- **SH** – shell‑script files are packaged into a SHAR archive.  
+
+## API Classes Used
+- `XarArchive` — Represents a XAR archive; allows adding entries, setting compression, and saving the archive.  
+- `SevenZipArchive` — Represents a 7z archive; supports adding entries from streams and preserving timestamps.  
+- `Archive` — Base class for generic archive creation (ZIP, AppleArchive, etc.); used to add files and configure saving options.  
+- `TarArchive` — Builds a TAR archive from files before optional further compression.  
+- `Bzip2Compressor` (from `Aspose.Zip.Bzip2`) — Provides Bzip2 compression for entries or whole archives.  
+- `AppleArchiveEntrySettings` — Holds settings such as compression algorithm (e.g., LZFSE, LZ4) for individual AppleArchive entries.  
+- `ArchiveSavingOptions` — Configures how an archive is saved, including compression type and block size.  
+- `FileStream` — Standard .NET stream used to read source files and write the resulting archive to disk.
+
+<!-- AUTOGENERATED:START -->
+Updated: 2026-11-06 | Run: `20261030_170832` | Examples: 575
+<!-- AUTOGENERATED:END -->
+
+## Developer Q&A
+
+### Q: How can I add a Bzip2‑compressed file to a XAR archive from a FileStream in C#?
+Use **Aspose.Zip.Xar.XarArchive** with **Bzip2CompressionSettings** and call `AddEntry` passing the source `FileStream`. Then save the archive with `Save`. → See: `add-a-bzip2-compressed-entry-to-a-xar-archive-using-a-filestream-source-and-save-the-resulting-archive.cs`
+
+### Q: How do I compress an executable to LZ format using Aspose.Zip in .NET?
+Create an **Aspose.Zip.Lzip.LzipArchive**, open the input EXE file stream, and call `AddEntry` with `LzipCompressionSettings`. Write the compressed data to a file stream and close the archive. → See: `compress-a-binary-executable-using-lziparchive-and-write-the-compressed-data-to-a-file-stream.cs`
+
+### Q: How can I generate a self‑extracting SFX archive from a folder of extracted WIM images in C#?
+Instantiate **Aspose.Zip.Saving.SfxArchive**, add the folder contents with `AddFolder`, and set the output path. Call `Save` to produce the executable SFX file. → See: `create-a-self-extracting-sfx-archive-from-the-folder-containing-all-extracted-wim-images-saving-as.cs`
+
+### Q: How do I extract a BZIP2 archive directly to a writable FileStream using Aspose.Zip?
+Open the archive with **Bzip2Archive.Open** and use the `ExtractTo` method, passing a writable `FileStream` for the destination file. This streams the decompressed data without creating an intermediate file. → See: `extract-a-bzip2-archive-to-a-writable-file-stream-using-bzip2archive-open-method.cs`
+
+### Q: How can I create an Apple archive without CRC32 using store compression in C#?
+Create an **Aspose.Zip.AppleArchive**, set `AppleCompressionSettings.Store` and `IncludeCrc32Checksum = false` on the entry, then add the file and call `Save`. This produces an Apple archive that stores data uncompressed and omits CRC32. → See: `create-an-apple-archive-with-a-single-entry-using-applecompressionsettings-store-and-includecrc32checksum-false.cs`
