@@ -74,3 +74,18 @@ When no license file is supplied, the library operates in evaluation mode, allow
 | images     | 19       | `Aspose.Zip.ArchiveEntry` |
 | merging    | 50       | `Aspose.Zip.ZipFile` (Merge support) |
 | volumes    | 79       | `Aspose.Zip.ZipVolume` |
+
+
+| Category   | Examples | Key APIs |
+|------------|----------|----------|
+| archives   | 575      | `ZipArchive`, `ZipArchiveEntry`, `ZipFile` |
+| compression| 112      | `ZipCompression`, `SetCompressionLevel()`, `Compress()` |
+| conversion | 91       | `ZipConversion`, `ConvertToPdf()`, `ConvertToDocx()` |
+| decryption | 45       | `ZipDecryption`, `Decrypt()`, `SetPassword()` |
+| encryption | 42       | `ZipEncryption`, `Encrypt()`, `SetEncryptionAlgorithm()` |
+| events     | 51       | `ZipEvent`, `ArchiveExtracted`, `FileAdded` |
+| files      | 33       | `AddFile()`, `ExtractFile()`, `RemoveFile()` |
+| folders    | 27       | `ZipFolder`, `AddFolder()`, `ExtractFolder()` |
+| images     | 19       | `ZipImage`, `AddImage()`, `ExtractImage()` |
+| merging    | 50       | `ZipMerging`, `MergeArchives()`, `AppendArchive()` |
+| volumes    | 79       | `ZipVolume`, `CreateVolume()`, `ExtractVolume()` |
