@@ -102,4 +102,4 @@ Examples and tasks in this folder:
 | [apply-savezcompressed-on-the-cpio-archive-to-generate-a-cpio-z-file.cs](./apply-savezcompressed-on-the-cpio-archive-to-generate-a-cpio-z-file.cs) |
 | [batch-load-local-zip-files-use-a-separate-image-byte-buffer-for-each-archive-and-save-each-archive-s-extracted.cs](./batch-load-local-zip-files-use-a-separate-image-byte-buffer-for-each-archive-and-save-each-archive-s-extracted.cs) |
 | [batch-load-zip-files-from-a-local-directory-extract-their-image-entries-and-save-each-archive-s-images-in-a.cs](./batch-load-zip-files-from-a-local-directory-extract-their-image-entries-and-save-each-archive-s-images-in-a.cs) |
-[**View all 575 examples →**](https://github.com/aspose-zip/agentic-net-examples/tree/26.11.0/archives)
+[**View all 575 examples →**](https://github.com/aspose-zip/agentic-net-examples/tree/main/archives)
