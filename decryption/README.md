@@ -100,4 +100,4 @@ Examples and tasks in this folder:
 | [for-a-user-owned-or-authorized-zip-use-a-finite-caller-provided-template-or-candidate-list-load-an-encrypted-zip.cs](./for-a-user-owned-or-authorized-zip-use-a-finite-caller-provided-template-or-candidate-list-load-an-encrypted-zip.cs) |
 | [for-a-user-owned-or-authorized-zip-use-a-finite-caller-provided-template-or-candidate-list-open-encrypted-zip.cs](./for-a-user-owned-or-authorized-zip-use-a-finite-caller-provided-template-or-candidate-list-open-encrypted-zip.cs) |
 | [for-a-user-owned-or-authorized-zip-use-a-finite-caller-provided-template-or-candidate-list-perform-password.cs](./for-a-user-owned-or-authorized-zip-use-a-finite-caller-provided-template-or-candidate-list-perform-password.cs) |
-[**View all 45 examples →**](https://github.com/aspose-zip/agentic-net-examples/tree/26.11.0/decryption)
+[**View all 45 examples →**](https://github.com/aspose-zip/agentic-net-examples/tree/main/decryption)
