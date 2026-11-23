@@ -103,4 +103,4 @@ Examples and tasks in this folder:
 | [write-a-routine-that-renames-extracted-image-files-to-include-their-original-entry-index-prefix.cs](./write-a-routine-that-renames-extracted-image-files-to-include-their-original-entry-index-prefix.cs) |
 | [write-a-routine-that-saves-each-base64-string-as-a-separate-txt-file-named-after-its-image-entry.cs](./write-a-routine-that-saves-each-base64-string-as-a-separate-txt-file-named-after-its-image-entry.cs) |
 | [write-a-utility-that-generates-an-html-file-displaying-all-extracted-images-using-data-uri-sources.cs](./write-a-utility-that-generates-an-html-file-displaying-all-extracted-images-using-data-uri-sources.cs) |
-[**View all 19 examples →**](https://github.com/aspose-zip/agentic-net-examples/tree/26.11.0/images)
+[**View all 19 examples →**](https://github.com/aspose-zip/agentic-net-examples/tree/main/images)
