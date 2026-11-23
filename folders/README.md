@@ -94,4 +94,4 @@ Examples and tasks in this folder:
 | [open-a-zip-output-filestream-with-filemode-create-add-a-source-folder-with-createentries-and-save-the-zip-before.cs](./open-a-zip-output-filestream-with-filemode-create-add-a-source-folder-with-createentries-and-save-the-zip-before.cs) |
 | [open-an-output-filestream-with-filemode-create-add-a-local-folder-to-archive-save-the-zip-and-then-close-the.cs](./open-an-output-filestream-with-filemode-create-add-a-local-folder-to-archive-save-the-zip-and-then-close-the.cs) |
 | [use-fileinfo-objects-to-include-hidden-files-in-the-zip-archive-while-compressing-a-directory.cs](./use-fileinfo-objects-to-include-hidden-files-in-the-zip-archive-while-compressing-a-directory.cs) |
-[**View all 27 examples →**](https://github.com/aspose-zip/agentic-net-examples/tree/26.11.0/folders)
+[**View all 27 examples →**](https://github.com/aspose-zip/agentic-net-examples/tree/main/folders)
