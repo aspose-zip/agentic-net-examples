@@ -102,4 +102,4 @@ Examples and tasks in this folder:
 | [convert-a-zip-archive-to-tar-gz-format-preserving-directory-entries-with-trailing-slash.cs](./convert-a-zip-archive-to-tar-gz-format-preserving-directory-entries-with-trailing-slash.cs) |
 | [convert-a-zip-archive-to-tar-gz-format-using-compress-on-the-fly-and-write-the-compressed-file.cs](./convert-a-zip-archive-to-tar-gz-format-using-compress-on-the-fly-and-write-the-compressed-file.cs) |
 | [convert-a-zip-archive-to-tar-gz-format-without-compress-on-the-fly-and-save-the-output.cs](./convert-a-zip-archive-to-tar-gz-format-without-compress-on-the-fly-and-save-the-output.cs) |
-[**View all 91 examples →**](https://github.com/aspose-zip/agentic-net-examples/tree/26.11.0/conversion)
+[**View all 91 examples →**](https://github.com/aspose-zip/agentic-net-examples/tree/main/conversion)
