@@ -111,4 +111,4 @@ Examples and tasks in this folder:
 | [merge-multiple-source-archives-and-produce-a-new-tar-gz-archive-that-includes-the-combined-content.cs](./merge-multiple-source-archives-and-produce-a-new-tar-gz-archive-that-includes-the-combined-content.cs) |
 | [merge-multiple-zip-archives-ensure-sufficient-virtual-memory-and-produce-a-merged-zip-archive-without.cs](./merge-multiple-zip-archives-ensure-sufficient-virtual-memory-and-produce-a-merged-zip-archive-without.cs) |
 | [merge-three-archives-of-different-formats-zip-7zip-cpio-in-memory-and-save-as-a-zip-archive.cs](./merge-three-archives-of-different-formats-zip-7zip-cpio-in-memory-and-save-as-a-zip-archive.cs) |
-[**View all 50 examples →**](https://github.com/aspose-zip/agentic-net-examples/tree/26.11.0/merging)
+[**View all 50 examples →**](https://github.com/aspose-zip/agentic-net-examples/tree/main/merging)
