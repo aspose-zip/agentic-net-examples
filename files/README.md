@@ -108,4 +108,4 @@ Examples and tasks in this folder:
 | [set-an-archive-comment-after-adding-files-to-the-zip-archive-using-a-file-stream.cs](./set-an-archive-comment-after-adding-files-to-the-zip-archive-using-a-file-stream.cs) |
 | [set-an-archive-comment-on-a-newly-created-zip-archive-and-save-the-updated-archive.cs](./set-an-archive-comment-on-a-newly-created-zip-archive-and-save-the-updated-archive.cs) |
 | [store-a-pdf-file-in-a-zip-archive-without-compression-and-save-the-uncompressed-archive-file.cs](./store-a-pdf-file-in-a-zip-archive-without-compression-and-save-the-uncompressed-archive-file.cs) |
-[**View all 33 examples →**](https://github.com/aspose-zip/agentic-net-examples/tree/26.11.0/files)
+[**View all 33 examples →**](https://github.com/aspose-zip/agentic-net-examples/tree/main/files)
