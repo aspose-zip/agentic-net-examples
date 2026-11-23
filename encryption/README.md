@@ -116,4 +116,4 @@ Examples and tasks in this folder:
 | [encrypt-an-entire-directory-of-confidential-documents-with-aes192-encryption-and-generate-the-protected-zip-file.cs](./encrypt-an-entire-directory-of-confidential-documents-with-aes192-encryption-and-generate-the-protected-zip-file.cs) |
 | [encrypt-files-in-a-zip-archive-using-traditional-password-protection-for-text-files-and-aes256-for-binary-files.cs](./encrypt-files-in-a-zip-archive-using-traditional-password-protection-for-text-files-and-aes256-for-binary-files.cs) |
 | [generate-a-json-file-describing-the-aes-256-encryption-settings-applied-to-a-specific-zip-archive.cs](./generate-a-json-file-describing-the-aes-256-encryption-settings-applied-to-a-specific-zip-archive.cs) |
-[**View all 42 examples →**](https://github.com/aspose-zip/agentic-net-examples/tree/26.11.0/encryption)
+[**View all 42 examples →**](https://github.com/aspose-zip/agentic-net-examples/tree/main/encryption)
