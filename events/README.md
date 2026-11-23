@@ -106,4 +106,4 @@ Examples and tasks in this folder:
 | [extract-archive-zip-while-aggregating-archiveentry-extractionprogressed-bytes-to-compute-overall-extraction.cs](./extract-archive-zip-while-aggregating-archiveentry-extractionprogressed-bytes-to-compute-overall-extraction.cs) |
 | [extract-data-zip-while-aggregating-archiveentry-extractionprogressed-bytes-across-entries-to-compute-overall.cs](./extract-data-zip-while-aggregating-archiveentry-extractionprogressed-bytes-across-entries-to-compute-overall.cs) |
 | [extract-documents-zip-with-filestream-subscribe-to-archiveentry-extractionprogressed-and-output-overall.cs](./extract-documents-zip-with-filestream-subscribe-to-archiveentry-extractionprogressed-and-output-overall.cs) |
-[**View all 51 examples →**](https://github.com/aspose-zip/agentic-net-examples/tree/26.11.0/events)
+[**View all 51 examples →**](https://github.com/aspose-zip/agentic-net-examples/tree/main/events)
