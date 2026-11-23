@@ -103,4 +103,4 @@ Examples and tasks in this folder:
 | [configure-lzip-archive-with-custom-dictionary-size-and-compressionthreads-three-compress-dataset-xml-to-dataset-lz.cs](./configure-lzip-archive-with-custom-dictionary-size-and-compressionthreads-three-compress-dataset-xml-to-dataset-lz.cs) |
 | [configure-lzip-archive-with-custom-dictionary-size-compressionthreads-nine-compress-archive-tar-gz-to-archive-lz.cs](./configure-lzip-archive-with-custom-dictionary-size-compressionthreads-nine-compress-archive-tar-gz-to-archive-lz.cs) |
 | [configure-lzip-archive-with-custom-dictionary-size-compressionthreads-six-compress-dataset-sql-to-dataset-lz.cs](./configure-lzip-archive-with-custom-dictionary-size-compressionthreads-six-compress-dataset-sql-to-dataset-lz.cs) |
-[**View all 112 examples →**](https://github.com/aspose-zip/agentic-net-examples/tree/26.11.0/compression)
+[**View all 112 examples →**](https://github.com/aspose-zip/agentic-net-examples/tree/main/compression)
